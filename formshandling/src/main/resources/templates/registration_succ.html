@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Registration Successful</title>
+</head>
+<style> h1{
+text-align: center; font-family: impact; color:red;
+
+}
+h3{
+padding-left:480px; font-style:italic;
+
+color:white; font-size:large;
+}
+
+</style>
+<body style ="background: url(9.jpg); background-size:100%;
+background-repeat:no-repeat;"><br>
+<h1>Registration Successful</h1><br>
+<h3>Name :<span th:text ="${frm.name}"></span><br><br> Email :<span th:text="${frm.email}"></span><br><br> Password :<span th:text="${frm.password}"></span><br><br> DOB :<span th:text="${frm.dob}"></span><br><br>
+Gender :<span th:text="${frm.gender}">Male</span><br><br> Qualification :<span th:text="${frm.dishes}"></span><br><br> Feedback :<span th:text="${frm.feed}"></span><br><br> Location :<span th:text="${frm.location}"></span></h3>
+</body>
+</html>
